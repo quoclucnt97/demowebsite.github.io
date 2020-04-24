@@ -1,0 +1,424 @@
+* {margin: 0; padding: 0}
+
+.back.opa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menutop.color {
+    background: black;
+    height: 10%;
+    padding: 10px 50px;
+}
+
+i.fa.fa-arrow-up {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.back {
+    position: fixed;
+    right: 30px;
+    background: yellow;
+    bottom: 30px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 14px white;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+}
+
+.footer .tron:hover:nth-child(5) {
+    background: #007bb7;
+}
+
+.footer .tron:hover:last-child {
+    background: #007bb7;
+}
+
+.footer .tron:hover:nth-child(4) {
+    background: #bd3518;
+}
+
+.footer .tron:hover:nth-child(3) {
+    background: #3cf;
+}
+
+.footer .tron:hover:nth-child(2) {
+    background: #3b5998;
+}
+
+.footer .tron:hover i {
+    color: white;
+    transform: rotate(360deg);
+}
+
+.footer .tron:hover:first-child {
+    background: #f56505;
+    border: none;
+}
+
+.footer .tron {
+    display: inline-block;
+    background: #ffffffa8;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 0.4s;
+}
+
+i.fa.fa-rss, i.fa.fa-facebook, i.fa.fa-twitter, i.fa.fa-google-plus, i.fa.fa-linkedin {color: black;line-height: 55px;font-size: 24px;transform: rotate(0);transition: 0.4s;}
+
+.footer p {color: gray;}
+
+.footer a {
+    color: #35a49c;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.footer p {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer span {
+    color: gray;
+    display: block;
+    padding: 20px 0 5px 0;
+}
+
+.footer {
+    padding: 7% 0;
+    background: #242424;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+}
+
+.contact button:hover {
+    background: #169c88fa;
+}
+
+.contatc button:hover {
+}
+
+.contact button {
+    margin-top: -5%;
+    margin-left: -76%;
+    background: #79cdc0;
+    border: none;
+    padding: 8px 24px;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.contact .row {
+}
+
+label {display: block;margin-left: -87%;font-weight: bold;}
+
+input[type="name"], input[type="email"], input[type="subject"], textarea {
+    background: #e3e7e4;
+    border: none;
+    padding: 14px;
+    color: gray;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.contact .form {width: 50%;margin: 30px auto;}
+
+.contact {
+    padding: 5% 0;
+    text-align: center;
+}
+
+.img {
+    background: url(images/3.jpg);
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    padding: 10% 0;
+}
+
+.item:hover .hover {
+    padding-top: 30%;
+    opacity: 1;
+    visibility: visible;
+}
+
+i.fa.fa-plus {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.port .item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.port .hover {
+    background: #35a49c;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.port img {
+    width: 100%;
+}
+
+.port .khoi {
+    column-count: 3;
+    column-gap: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+.port ul li a:hover {
+    background: #00c5ffa3;
+    color: black;
+}
+
+.port ul li a {
+    color: white;
+    text-decoration: none;
+    background: #00c5ff;
+    padding: 5px 10px;
+    transition: 0.4s;
+}
+
+.port li {
+}
+
+.port ul.option {
+    display: flex;
+    padding-bottom: 40px;
+    list-style: none;
+    width: 24%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.port p, .contact p {
+    width: 42%;
+    margin: auto;
+    color: gray;
+    padding: 15px 0 30px 0;
+}
+
+.port {
+    padding: 5% 0;
+    text-align: center;
+}
+
+.bootstrap h1, .img h1 {
+    padding-bottom: 20px;
+    font-size: 55px;
+    font-family: monospace;
+}
+
+.bootstrap {
+    background-image: url(images/2.jpg);
+    background-attachment: fixed;
+    padding: 10% 0;
+    text-align: center;
+    color: white;
+}
+
+.team img {
+    border-radius: 50%;
+}
+
+.team span {
+    font-weight: 350;
+    color: gray;
+}
+
+.team b {padding-top: 20px;font-size: 20px;}
+
+.team h1 {
+    margin: 0;
+}
+
+.team p {
+    padding: 15px 0 40px 0;
+    width: 42%;
+    margin: auto;
+    color: gray;
+}
+
+.team b {
+    display: block;
+}
+
+.team .khoi .item {
+    width: 22%;
+}
+
+.team .khoi {
+    display: flex;
+    width: 88%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.team {
+    padding: 5% 0;
+    text-align: center;
+}
+
+.anh span {
+    font-weight: bolder;
+}
+
+.anh a {
+    color: #79cdc0;
+    text-decoration: none;
+    padding-left: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.anh p {
+    width: 85%;
+    font-size: 19px;
+    margin: auto;
+    padding-bottom: 30px;
+    line-height: 26px;
+}
+
+.anh {
+    background-image: url(images/1.jpg);
+    background-attachment: fixed;
+    padding: 10% 0;
+    color: white;
+    text-align: center;
+}
+
+.menutop ul li a:hover {
+    color: #70b9b0;
+}
+
+.services .item p {
+    color: #808080b8;
+    font-family: inherit;
+}
+
+.services .item h3 {
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+i.fa.fa-code, i.fa.fa-terminal, i.fa.fa-bolt {
+    font-size: 66px;
+}
+
+.services .khoi .item {
+    text-align: center;
+    width: 32%;
+}
+
+.services .khoi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services {
+    padding: 5%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.noidung h1 {
+    padding: 20px 0;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.noidung p {
+    width: 40%;
+    margin: auto;
+    font-size: 15px;
+    padding-bottom: 10%;
+}
+
+i.fa.fa-flask {
+    font-size: 80px;
+    padding-top: 16%;
+}
+
+.noidung {
+    background: #70b9b0;
+    text-align: center;
+    color: white;
+}
+
+.menutop ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+    font-weight: bolder;
+}
+
+.menutop ul li {
+    margin-left: 50px;
+}
+
+.menutop h3 {
+    color: white;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.menutop ul.menu {
+    list-style: none;
+    width: 40%;
+    margin: 0;
+    padding-top: 5px;
+    display: flex;
+    margin-left: 20%;
+}
+
+.menutop .symbol {
+    width: 40%;
+}
+
+.menutop {
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30%;
+    padding: 70px 50px;
+    z-index: 100;
+    transition: 0.4s;
+}
